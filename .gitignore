@@ -1,0 +1,13 @@
+# Large image files
+*.img
+*.img.gz
+*.iso
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+system_out/
+build_temp/
+*.log

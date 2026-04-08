@@ -1,9 +1,9 @@
 #!/bin/bash
 
-echo "🔥 ISHDREAM GAMER FIRST BOOT STARTING"
+echo "ISHDREAM GAMER FIRST BOOT"
 
 mkdir -p /userdata/roms
-mkdir -p /userdata/saves
 mkdir -p /userdata/cloud
-
-echo "SYSTEM READY"
+echo "Setting up console UI..."
+touch /userdata/ps5_ui_enabled
+echo "Setup complete"
